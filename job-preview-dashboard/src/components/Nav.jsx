@@ -10,12 +10,12 @@ import RoundedButton from './uielements/RoundedButton.jsx'
 
 function Nav() {
   return (
-    <div className='flex items-center justify-between fixed top-0 left-0 w-screen pl-10 pr-6 py-6'>
+    <div className='flex items-center justify-between top-0 left-0 w-screen h-[109px] pl-10 pr-6 py-6'>
         
         <button className='flex justify-center items-center w-[100px] h-[61px] text-orange bg-[#E7E7E7] font-satoshi'>Logo</button>
         
 
-        <div className='flex items-center border-[0.5px] border-[#D1D1D1] rounded-[49px] p-2 gap-[60px] h-[74px]'>
+        <div className='flex items-center justify-between border-[0.5px] border-[#D1D1D1] rounded-[36px] p-2 h-[74px] w-[538px]'>
             <RoundedButton logo={<Briefcase />} name={"Jobs"} />
             <RoundedButton logo={<MessageSquare />} name={"Messages"} />
             <RoundedButton logo={<CoinsHand />} name={"Payments"} />

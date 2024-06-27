@@ -1,29 +1,23 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 import Nav from './components/Nav.jsx'
+import Header from './components/Header.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className='flex'>
         <Nav/>
-        <main className='flex'>
-          <div className='flex flex-row'></div>
-          <div className='flex flex-row'>
-            <div>
+        <Header/>
+          <div className='flex flex-row h-screen'>
+            <div className=''>
                 <div></div>
                 <div></div>
                 <div></div>
                 <div></div>
             </div>
-            <div></div>
+            <div className='border-t border-l border-[#e7e7e7] bg-[#fcfcfc] w-[409px] fixed right-0 h-screen'>Delete job Edit job</div>
           </div>
-        </main>
-      </div>
     </>
   )
 }
