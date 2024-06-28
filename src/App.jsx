@@ -12,7 +12,7 @@ function App() {
     <>
         <Nav/>
         <Header/>
-          <div className='flex mt-[176px] flex-row'>
+          <div className='flex flex-row'>
             <MainPanel/>
             <SidePanel/>
           </div>
