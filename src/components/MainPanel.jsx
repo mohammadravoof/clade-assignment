@@ -1,8 +1,8 @@
 import React from 'react'
-import JobRole from './JobRole'
-import Requirement from './Requirement'
-import AboutTheJob from './AboutTheJob'
-import CompanyProfile from './CompanyProfile'
+import JobRole from './JobRole.jsx'
+import Requirement from './Requirement.jsx'
+import AboutTheJob from './AboutTheJob.jsx'
+import CompanyProfile from './CompanyProfile.jsx'
 import MainPanelLine from './uielements/MainPanelLine.jsx'
 
 
