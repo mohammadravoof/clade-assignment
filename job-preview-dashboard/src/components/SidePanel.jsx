@@ -10,7 +10,7 @@ import SidePanelLine from './uielements/SidePanelLine'
 
 function SidePanel() {
   return (
-    <div className='flex justify-center border-t border-l border-[#e7e7e7] bg-[#fcfcfc] w-[409px] h-screen ml-auto'>
+    <div className='flex justify-center border-t border-l border-[#e7e7e7] bg-[#fcfcfc] w-[409px] ml-auto'>
               <div className='flex flex-col w-[360px] h-min mt-9 gap-6'>
 
                 <div className='flex flex-row w-[360px] gap-4 h-min'>

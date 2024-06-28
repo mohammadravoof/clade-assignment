@@ -3,7 +3,7 @@ import JobRole from './JobRole'
 import Requirement from './Requirement'
 import AboutTheJob from './AboutTheJob'
 import CompanyProfile from './CompanyProfile'
-import MainPanelLine from './uielements/MainPanelLine'
+import MainPanelLine from './uielements/MainPanelLine.jsx'
 
 
 
@@ -16,7 +16,7 @@ function MainPanel() {
             place={"Delaware,Usa"} 
             salary={"$300k-$400k"} 
             available/>
-                <MainPanelLine/>
+          <MainPanelLine/>
         <Requirement/>
             <MainPanelLine/>
         <AboutTheJob/>
