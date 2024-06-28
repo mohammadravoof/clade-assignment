@@ -19,7 +19,7 @@ function Nav() {
 
 
   return (
-    <div className='flex items-center justify-between top-0 left-0 w-screen h-[109px] pl-10 pr-6 py-6'>
+    <div className='flex fixed items-center justify-between top-0 left-0 w-screen h-[109px] pl-10 pr-6 py-6 bg-white'>
         
         <button><img src={logo} alt="logo" /></button>
         

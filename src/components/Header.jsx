@@ -10,7 +10,7 @@ function Header() {
   };
 
   return (
-    <div className='flex flex-row gap-[72px] pl-[100px] border-[1px] border-[#e7e7e7] w-full h-[67px]'>
+    <div className='flex fixed top-[109px] flex-row gap-[72px] pl-[100px] border-[1px] border-[#e7e7e7] w-full h-[67px] bg-white'>
         <HeaderButton name={"Job preview"} 
                       isSelected={selectedButton === 1}
                       onClick={() => handleButtonClick(1)} />
